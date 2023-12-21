@@ -44,6 +44,7 @@ class SmsHubService:
             'api_key': sms_hub_api,
             'action': 'getNumber',
             'service': 'ot',
+            'operator': 'mts',
             'country': '0',
             'maxPrice': '6'
         }
